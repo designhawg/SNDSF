@@ -1,0 +1,41 @@
+.slides h1, .slides h2, .slides h3, .slides h4, .slides p  {
+  font-family: "proxima-nova", sans-serif;
+}
+
+.slides h4 {
+  color: #777;
+  position: absolute;
+  bottom: -120px;
+  font-weight: 900;
+  font-size: .8em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+h1.hero, h2.hero, h3.hero {
+  font-size: 5em;
+  font-weight: 900;
+  line-height: .8;
+  margin-top: 50px;
+}
+
+h3.hero {
+  font-size: 3em;
+}
+
+.reveal section img {
+  background: none;
+  border: none;
+}
+
+.reveal section img, .reveal a:hover img {
+  box-shadow: none;
+}
+
+section #newsroom {
+  background-image: url('..lib/img/newsroom.jpg');
+  background-size: cover;
+  background-color: none;
+}
